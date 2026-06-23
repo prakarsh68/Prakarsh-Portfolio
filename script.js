@@ -119,8 +119,8 @@ document.addEventListener('DOMContentLoaded', () => {
             applyTheme(savedTheme); // Apply saved theme
         } else {
             // Default theme if nothing is saved (e.g., 'light' or 'dark')
-            // Let's set 'light' as the default initial state if no preference is found
-            applyTheme('light');
+            // Let's set 'dark' as the default initial state if no preference is found
+            applyTheme('dark');
         }
 
         // Add event listener for toggle changes
