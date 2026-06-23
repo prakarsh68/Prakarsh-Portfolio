@@ -11,12 +11,19 @@
   <meta property="og:type" content="website" />
 
   <title>Calmana | Prakarsh Awasthi's Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Outfit (Headings) and Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css?v=2" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" href="images/favicon.png" onerror="this.src='your-favicon.png'">
 </head>
 <body>
-  <header>
+  <div id="particles-js"></div>
+  <header class="project-header">
     <div class="mode-toggle">
       <label class="switch">
         <input type="checkbox" id="toggle-mode">
@@ -151,17 +158,19 @@
 
   <footer>
     <button id="back-to-top" class="back-to-top">
-    <i class="fas fa-arrow-up"></i> </button>
+      <i class="fas fa-arrow-up"></i>
+    </button>
     <div class="social-links">
       <a href="https://github.com/prakarsh34" target="_blank"><i class="fab fa-github"></i> GitHub</a>
       <a href="https://www.linkedin.com/in/prakarsh-awasthi-332614312/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
       <a href="https://www.instagram.com/prakarsh_34/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
     </div>
-    <p>© 2025 Prakarsh Awasthi · Built with ❤️</p>
+    <p>© 2026 Prakarsh Awasthi · Built with ❤️ & Elegance</p>
   </footer>
 
-  <script type="module" src="firebase-init.js"></script>
-  <script src="script.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="particles.min.js"></script>
+  <script src="script.js?v=2"></script>
+  <script type="module" src="firebase-init.js"></script>
 </body>
 </html>

@@ -53,5 +53,5 @@ if (contactForm && formStatus) {
     }
   });
 } else {
-  console.error("Contact form or form status element not found.");
+  console.log("Contact form or form status element not found (not on main landing page).");
 }
